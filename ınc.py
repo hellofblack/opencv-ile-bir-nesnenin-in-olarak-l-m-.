@@ -67,8 +67,6 @@ for c in cnts:
 		(int(trbrX + 10), int(trbrY)), cv2.FONT_HERSHEY_SIMPLEX,
 		0.65, (255, 255, 255), 2)
 	
-  if cv2.waitKey(1) & ord("q") ==27:
-        break
-      
+     
   cv2.imshow("Image", orig)
 	cv2.waitKey(0)
